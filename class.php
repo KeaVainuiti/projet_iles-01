@@ -1,6 +1,13 @@
 <?php
 include("connexion.php");
 
+/**
+ * Join between cities is island and island is cities. its also takes as the names of the islands
+ * 
+ * param[string] $getIles
+ * return void
+ */
+
 class iles {
     public function getCity($getIles){
         global $connect_bdd;
